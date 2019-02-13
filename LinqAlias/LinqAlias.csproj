@@ -9,6 +9,8 @@
         <TargetFramework>netstandard1.0</TargetFramework>
         <PackageLicense>https://opensource.org/licenses/MIT</PackageLicense>
         <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/RyotaMurohoshi/LinqAlias</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/RyotaMurohoshi/LinqAlias</RepositoryUrl>
         <PackageTags>linq;extensions;alias</PackageTags>
     </PropertyGroup>
 
