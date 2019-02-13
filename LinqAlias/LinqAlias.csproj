@@ -4,7 +4,7 @@
         <Title>LinqAlias</Title>
         <Description>Aliases of System.Linq extension methods.</Description>
         <AssemblyName>LinqAlias</AssemblyName>
-        <Version>0.0.0.1</Version>
+        <Version>0.0.0.2</Version>
         <Authors>RyotaMurohoshi</Authors>
         <TargetFramework>netstandard1.0</TargetFramework>
         <PackageLicense>https://opensource.org/licenses/MIT</PackageLicense>
