@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Title>LinqAlias</Title>
+        <Description>Aliases of System.Linq extension methods.</Description>
+        <AssemblyName>LinqAlias</AssemblyName>
+        <Version>0.0.0.1</Version>
+        <Authors>RyotaMurohoshi</Authors>
+        <TargetFramework>netstandard1.0</TargetFramework>
+        <PackageLicense>https://opensource.org/licenses/MIT</PackageLicense>
+        <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+        <PackageTags>linq;extensions;alias</PackageTags>
+    </PropertyGroup>
+
+</Project>
