@@ -11,6 +11,8 @@
         <PackageProjectUrl>https://github.com/RyotaMurohoshi/LinqAlias</PackageProjectUrl>
         <RepositoryUrl>https://github.com/RyotaMurohoshi/LinqAlias</RepositoryUrl>
         <PackageTags>linq;extensions;alias</PackageTags>
+        <Copyright>Copyright (c) 2019 RyotaMurohoshi</Copyright>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
 </Project>
