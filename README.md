@@ -1,6 +1,23 @@
 # LinqAlias
 
-LinqAlias provides aliases of next LINQ to Objects methods.
+`LinqAlias` provides aliases of some `LINQ to Objects` methods.
+
+`LinqAlias` helps C# beginner who has other programming language experience.
+
+# Why LinqAlias?
+
+C# has `LINQ to Objects` that is great Collection methods.
+
+But, if you have any other programming language experience, you may feel that LINQ method names are strange.
+
+For example,
+
+* `Where` method description is `Filters a sequence of values based on a predicate.`. In other programming language, this method called as `Filter`.
+* `Select` method description is `Projects each element of a sequence into a new form.`. In other programming language, this method called as `Map`.
+
+`LinqAlias` provides aliases of some `LINQ to Objects` methods. `LinqAlias` helps C# beginner with method aliases. Please stop using `LinqAlias` after you become familiar LINQ to Objects, Select, Where and others.
+
+# Alias List
 
 * Filter : [Where](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.where?view=netstandard-1.0) alias
 * Map : [Select](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.select?view=netstandard-1.0) alias
@@ -10,15 +27,14 @@ LinqAlias provides aliases of next LINQ to Objects methods.
 * Reduce : [Aggregate](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.aggregate?view=netstandard-1.0) alias
 * Fold : [Aggregate](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.aggregate?view=netstandard-1.0) alias
 
-
 # Usage
 
-LinqAlias is available for download and installation as [NuGet packages](https://www.nuget.org/packages/LinqAlias/).
+`LinqAlias` is available for download and installation as [NuGet packages](https://www.nuget.org/packages/LinqAlias/).
 
 ```csharp
 using System;
 using System.Linq;
-using LinqAlias;
+using LinqAlias; // use LinqAlias namespace.
 
 namespace HelloLinqAlias
 {
@@ -29,8 +45,13 @@ namespace HelloLinqAlias
             var array = new[] {0, 1, 2, 3, 4};
 
             var message = string.Join(", ", array
+                // use Map extension method as alias of Select.
+                // You may be familiar Map method than Select method.
                 .Map(it => it * it)
+                 // use Filter extension method as alias of Where.
+                 // You may be familiar Filter method than Where method.
                 .Filter(it => it % 2 == 0)
+
                 .ToArray()
             );
 
