@@ -1,17 +1,21 @@
 # LinqAlias
 
-LinqAlias provides aliases of some `LINQ to Objects` methods.
+`LinqAlias` provides aliases of some `LINQ to Objects` methods.
+
+`LinqAlias` helps C# beginner who has other programming language experience.
 
 # Why LinqAlias?
 
-C# has LINQ to Objects that is great Collection methods.
+C# has `LINQ to Objects` that is great Collection methods.
 
-But, if you have any other programming language experience, you may feel that LINQ method names strange. For example,
+But, if you have any other programming language experience, you may feel that LINQ method names are strange.
+
+For example,
 
 * `Where` method description is `Filters a sequence of values based on a predicate.`. In other programming language, this method called as `Filter`.
 * `Select` method description is `Projects each element of a sequence into a new form.`. In other programming language, this method called as `Map`.
 
-LinqAlias provides aliases of some `LINQ to Objects` methods. LinqAlias helps C# beginner with method aliases. Please do not use LinqAlias after you become familiar LINQ to Objects, Select, Where and others.
+`LinqAlias` provides aliases of some `LINQ to Objects` methods. `LinqAlias` helps C# beginner with method aliases. Please stop using `LinqAlias` after you become familiar LINQ to Objects, Select, Where and others.
 
 # Alias List
 
@@ -25,7 +29,7 @@ LinqAlias provides aliases of some `LINQ to Objects` methods. LinqAlias helps C#
 
 # Usage
 
-LinqAlias is available for download and installation as [NuGet packages](https://www.nuget.org/packages/LinqAlias/).
+`LinqAlias` is available for download and installation as [NuGet packages](https://www.nuget.org/packages/LinqAlias/).
 
 ```csharp
 using System;
