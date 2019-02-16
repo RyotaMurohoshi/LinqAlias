@@ -1,4 +1,4 @@
-# LinqAlias
+# LinqAlias (Beta)
 
 `LinqAlias` provides aliases of some `LINQ to Objects` methods.
 
