@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace LinqAlias
 {
-    public static class EmumerableAlias
+    public static class EnumerableAlias
     {
         public static IEnumerable<TResult> Map<TSource, TResult>(
             this IEnumerable<TSource> source, Func<TSource, TResult> selector
